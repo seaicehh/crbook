@@ -5,3 +5,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crbook?serverTimezone=GMT
+    username: root
+    password: root
